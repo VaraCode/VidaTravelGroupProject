@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+
+    <title>Vida Travel</title>
+
+   <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ubuntu Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <!-- Lora Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
+    <!-- Font Awesome Icons -->
+    <script src="https://use.fontawesome.com/881ed980d1.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+       <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <a class="navbar-brand" href="index.html">Vida Travel</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="index.html">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Destinations</a></li>
+            <li><a href="form.html">Bookings</a></li>
+          </ul>
+        </div><!-- navbar collapse -->
+    </nav>
+      </div>
+      
+      <div class="jumbotron2">
+        <div class="container-fluid">
+          
+          <span style="font-size: 65px;">Bookings</span><br>
+            <a href="gallery.html"><button class="btn btn-success btn-lg">+Destinations<span class=" glyphicon glyphicon-plane"></span></button></a>
+         </div>
+      </div>
+
+            
+
+<!-- Form based on madlib assignment.  Will need to hide this until consent form is pressed.  Pressing switch botton will need to change Package variable only-->
+  <div class="formcontainer">
+      <div class="row">
+       <div class="col-sm-8" id="first">
+         <h1>Travel Consent Agreement</h1> 
+        <p>I,
+        <span id="name1Out"></span> of the United States, do solemly declare on 
+        <span id="date1Out"></span>: 1. That I live at
+        <span id="address1Out"></span>, 2. that my phone number is 
+        <span id="phone1Out"></span>, 3. and my e-mail address is 
+        <span id="email1Out"></span>.  
+       <br>
+        <br>
+        I hereby consent to Vida Travel booking me for their destination package to <span id="destination1Out"></span>.
+        <br>
+        <br>
+        I am aware that once I pay for this destination package, the fee is nonrefundable and nontransferable unless proof of medical emergency is presented prior to departure time.
+      </p>
+      
+      <div class="form-group">
+        <label for="exampleInputName1">NAME:</label>
+        <input type="text" class="form-control"
+        <input id="name1" placeholder="Name"/>
+      </div>
+      
+      <div class="form-group">
+        <label for="exampleInputDate1">DATE:</label>
+        <input type="date" class="form-control"
+        <input id="date1" placeholder="Date"/>
+        </div>
+        
+      <div class="form-group">
+        <label for="exampleInputAddress1">ADDRESS:</label>
+        <input type="text" class="form-control"
+        <input id="address1" placeholder="Address"/>
+      </div>
+       
+      <div class="form-group">
+         <label for="exampleInputPhone1">PHONE:</label>
+         <input type="tel" class="form-control"
+         <input id="phone1" placeholder="Telephone"/>
+         </div>
+         
+      <div class="form-group">
+          <label for="exampleInputEmail1">E-MAIL:</label>
+          <input type="email" class="form-control"
+          <input id="email1" placeholder="email@example.com"/>
+      </div>
+        
+      <div class="form-group">
+          <label for="exampleInputDestination1">DESTINATION:</label>
+          <input type="text" class="form-control"
+          <input id="destination1" placeholder="Destination Package"/>
+      </div>
+        <button class="btn btn-success" onclick="insert()">Click</button>
+    </div>
+  </div>
+</div>
+  <div class="selectiongamecontainer">
+   <div class="row">
+      <div class="col-sm-8" id="second"> 
+        <h1> Can't decide where to go?</h1>
+          <p>Click Random. Let chance decide for you!</p>
+            <button class="btn btn-danger" onclick="Random()">Random!</button>
+              <div id="package"></div>
+        </div>
+      </div>
+  </div>
+ 
+    <!-- Footer --> 
+    <div class= "footercontainer">
+      <div id="footer">
+        <p> Phone us: <a href="212-639-9675">212-639-9675</a>  E-mail Us:<a href="mailto:info@vidatravel.com">info@vidatravel.com</a> Visit Us: <a href="https://goo.gl/maps/yhezsAC2CHU2">455 5th Avenue, New York, New York 10016</a> </p>
+      </div>
+    </div>
+    
+    <noscript>
+      <p> I see you dont't have JavaScript.  Here's how to get around: <br>
+      <a href="about.html>About Page</a> | <a href="map.html>Map</a></p>
+    </noscript>
+      
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/consent.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+      
+  </body>
+</html>

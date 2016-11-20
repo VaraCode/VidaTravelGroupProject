@@ -1,0 +1,283 @@
+/* Site Color Scheme:
+http://colorschemedesigner.com/csd-3.5/#1q11Tw0w0w0w0
+*/
+
+
+
+
+body {
+  background-color: #FFE773;
+}
+
+/* Fonts Begins */
+
+p {
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+   font-family: 'Ubuntu', sans-serif; 
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ul {
+    font-family: 'Lora', serif;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;   
+}
+
+.index1link {
+    color:#000000;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.indexlink:hover, .indexlink:visited, .indexlink:link, .indexlink:active {
+     color:#000000;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+/* Fonts End */
+
+.jumbotron {
+    background-image: url("../images/ppbeach.jpg");
+    color: #f2f2f2;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    }
+    
+.jumbotron2 {
+    background-image: url("../images/riosteps3.jpg");
+    color: #f2f2f2;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    }
+    
+/* commmented out h1 {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+.h1home {
+        display:block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+ .carousel-inner img {
+  margin: auto;
+} 
+
+.carousel img {
+    min-width: 100%;
+}
+
+
+#footer {
+    text-align: center;
+    color:#bfbfbf;
+    bottom : 0;
+    height : 40px;
+    margin-top : 60px;
+    background:#000000;
+    position: relative;
+  }
+  
+  a { 
+      color: #f2f2f2;
+      margin:0 7px;
+      
+  } 
+
+/* Destinations page Styling */
+
+.destinationscontainer {
+    background-color: #FFE773;
+    border-color:A68900;
+
+}
+
+
+
+
+/* Form page Styling*/
+
+#consent-text {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.formcontainer {
+padding-left: 220px;
+padding-bottom: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 150px;
+margin-left: 150px;
+background-color: #07c2ed;
+    
+}
+
+.selectiongamecontainer {
+    padding-left: 220px;
+    height: 250px;
+    margin: 10px 150px 10px 150px;
+    background-color: #FFD300;
+    border-color: #07e1ed;
+    border: dashed; 
+}
+
+/* Destination Game*/
+#package{
+	  position: relative;
+	  font-family: 'Amatic SC', monospace;
+	  font-size: 40px;
+	  color: #ff0000;
+}
+
+.p1rio {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.p1pp {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.p1no {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+
+
+/* Destinations Book It Button */
+
+.destinationsbuttons {
+	border: none;
+	background:  #00b359;
+	color: #f2f2f2;
+	padding: 10px 35px;  
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	overflow:hidden;
+}
+
+.destinationsbuttons:before {
+	font-family: FontAwesome;
+	content:"\f072";
+	position: absolute;
+	top: 11px;
+	left: -30px;
+	transition: all 200ms ease;
+}
+
+.destinationsbuttons:hover:before {
+	left: 7px;
+}
+
+  
+/* Weather Plugin CSS Begins: */
+
+.weatherrio {
+    background-color: #FFD300;
+    background-image: url("../images/26f1_beachumbrella.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: right center;
+}
+
+.weatherpigeonpt {
+    background-color:  #FFD300;
+    background-image: url("../images/1f334_palmtree.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: right center;
+}
+ 
+.weatherneworleans {
+    background-color:  #FFD300;
+    background-image: url("../images/1f3b7_saxophone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-align: right center;
+} 
+ 
+ 
+/* Weather Plugin CSS Ends */
+
+/* jQuery Slide Down panel effect begins */
+
+#flip {
+    background-color:  #ffd300;
+    color: #000000;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    border: solid 1px #c3c3c3;
+    font-size: 18px;
+
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    background-color:#00b359;
+    font-weight: bold;
+    font-size: x-large;
+    color:#f2f2f2;
+
+}
+
+.vacayjquery {
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+
+/* jQuery Slide Down panel effect ENDS */
+ 
+  
+
+/*Media query */
+
+/*@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  body {
+    background: #;
+  }
+}*/
+ 
+    @media only screen and (min-width: 699px) and (max-width:1024px)
+{
+
+#container {
+    padding: 15px;
+    margin: 20px 10px;
+
+}}
